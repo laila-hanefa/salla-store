@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salla Store</title>
+  <link rel="stylesheet" href="assets/css/styl.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <!-- START HEADER -->
+  <header>
+    <nav>
+      <ul class="Contact">
+        <li>Contact us</li>
+        <li>Exchange or return policy</li>
+        <li>Favorite</li>
+        <li>Ar/En</li>
+      </ul>
+
+      <ul>
+        <li>Support@salla.sa</li>
+        <img src="assets/img/email.svg" alt="email">
+        <li>+966556754472</li>
+        <img src="assets/img/call.svg" alt="call">
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <a href="index.html"> <img src="assets/img/logo.png" alt="logo"></a>
+
+
+      <div class="right-section">
+
+        <div class="right-section-card">
+          <div>
+            <p>Shopping Cart</p>
+            <p class="price">1,200 SR</p>
+          </div>
+          <a href="cart.html"> <img src="assets/img/icon.svg" alt="icon"></a>
+        </div>
+
+        <div class="right-section-card">
+          <div>
+            <p>Welcome</p>
+            <p>&#x2303;Login</p>
+          </div>
+          <a href="info.html"><img src="assets/img/icon2.svg" alt="icon"></a>
+        </div>
+      </div>
+      <span class="bars"><i class="fa-solid fa-bars"></i></span>
+    </section>
+  </header>
+  <!-- END HEADER -->
+
+  <!-- START MAIN -->
+  <main>
+
+    <!-- START CHECK-OUT-SECTION -->
+    <section class="check-out">
+
+      <h1>Check Out</h1>
+      <form>
+
+        <div class="user-details">
+
+          <div class="user-details-div">
+
+            <div class="input-box">
+              <label>First Name*</label>
+              <input type="text" id="first name" name="first name" placeholder="First Name" required>
+            </div>
+
+            <div class="input-box">
+              <label>Country / Region*</label>
+              <input type="text" id="region" name="region" placeholder="Country / Region" required>
+            </div>
+
+            <div class="input-box">
+              <label>Street Address*</label>
+              <input type="text" id="street" name="street" placeholder="House number and street name" required>
+            </div>
+          </div>
+
+          <div class="user-details-div">
+
+            <div class="input-box">
+              <label>Last Name*</label>
+              <input type="text" id="last name" name="last name" placeholder="Last Name" required>
+            </div>
+
+            <div class="input-box">
+              <label>Company Name</label>
+              <input type="text" id="company" name="company" placeholder="Company (optional)" required>
+            </div>
+
+
+            <div class="input-box">
+              <label>Apt, suite, unit</label>
+              <input type="text" id="apt" name="apt" placeholder="apartment, suite, unit, etc. (optional)">
+            </div>
+          </div>
+        </div>
+
+        <div class="user-details2">
+
+
+          <div class="input-box">
+            <label>City*</label>
+            <input type="text" id="city" name="city" placeholder="Town / City" required>
+          </div>
+
+          <div class="input-box">
+            <label>State*</label>
+            <input type="text" id="state" name="state" placeholder="State" required>
+          </div>
+
+          <div class="input-box">
+            <label>Postal Code*</label>
+            <input type="text" id="code" name="code" placeholder="Postal Code" required>
+          </div>
+        </div>
+
+        <div class="input-box">
+          <label>Phone*</label>
+          <input type="text" id="phone" name="phone" placeholder="Phone" required>
+        </div>
+
+        <button>Continue to delivery</button>
+
+        <div class="check-out-checkBox">
+          <input type="checkbox">
+          <label>Save my information for a faster checkout</label>
+        </div>
+
+      </form>
+    </section>
+    <!-- END CHECK-OUT-SECTION -->
+
+    <!-- START PAYMENT-METHOD -->
+    <section class="payment-method">
+
+      <div class="payment-method-header">
+        <h1>Payment Method</h1>
+        <p>All transactions are secure and encrypted.</p>
+      </div>
+
+      <div class="payment-method-container">
+
+        <div class="credit-card">
+          <input type="radio">
+          <div>
+            <h3>Credit Card</h3>
+            <p>We accept all major credit cards.</p>
+          </div>
+        </div>
+
+        <div class="imgs">
+          <img src="assets/img/pay.svg" alt="pay">
+          <img src="assets/img/visa2.svg" alt="visa">
+          <img src="assets/img/paypal2.svg" alt="paypal">
+          <img src="assets/img/paypass.svg" alt="paypass">
+        </div>
+
+        <form>
+
+          <div class="credit-details">
+            <input type="text" id="Card number" placeholder="Card number">
+            <input type="text" id="date" placeholder="Expiration date (MM/YY)">
+          </div>
+
+          <div class="credit-details">
+            <input type="text" id="Name of card" placeholder="Name of card">
+            <div>
+              <input type="password" id="Security Code" placeholder="Security Code">
+              <img src="assets/img/eye.svg" alt="icon">
+            </div>
+          </div>
+
+        </form>
+
+        <div class="credit-card border">
+          <input type="radio">
+          <div>
+            <h3>Cash on delivery</h3>
+            <p>Pay with cash upon delivery.</p>
+          </div>
+        </div>
+
+        <div class="credit-card ">
+          <input type="radio">
+          <div>
+            <h3>Paypol</h3>
+          </div>
+        </div>
+
+        <button>Pay Now</button>
+
+      </div>
+    </section>
+    <!-- END PAYMENT-METHOD -->
+
+    <!-- START SUBSCRIPE-SECTION -->
+    <section class="subscribe">
+      <div class="container-left">
+        <div class="img">
+          <img src="assets/img/email.svg" alt="icon">
+        </div>
+        <div>
+          <h3>Subscribe to the newsletter</h3>
+          <p>Join now and get 10% off your next purchase!</p>
+        </div>
+      </div>
+
+      <form>
+        <input type="email" id="email" placeholder="Enter Your Email">
+        <div>
+          <button>Subscribe</button>
+        </div>
+      </form>
+    </section>
+    <!-- END SUBSCRIPE-SECTION -->
+  </main>
+  <!-- END-MAIN -->
+
+  <!--START FOOTER  -->
+  <footer>
+    <p>All rights reserved to the basket platform © 2023</p>
+    <div class="container-right">
+      <div>
+        <img src="assets/img/mada.svg" alt="photo">
+        <img src="assets/img/paypal.svg" alt="photo">
+        <img src="assets/img/master.svg" alt="photo">
+        <img src="assets/img/visa.svg" alt="photo">
+      </div>
+      <p>Tax Number:546987552 </p>
+    </div>
+  </footer>
+  <!-- END FOOTER -->
+</body>
+
+</html>
